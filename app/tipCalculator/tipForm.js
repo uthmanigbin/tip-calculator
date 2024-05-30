@@ -8,9 +8,9 @@ import PeopleAmount from "./peopleAmount";
 import DisplayCard from "./displayCard";
 
 const TipForm = () => {
-  const [bill, setBill] = useState(0);
+  const [bill, setBill] = useState('');
   const [tip, setTip] = useState(0);
-  const [people, setPeople] = useState(0);
+  const [people, setPeople] = useState('');
 
   const [tipPerPerson, setTipPerPerson] = useState(0);
   const [totalPerPerson, setTotalPerPerson] = useState(0);

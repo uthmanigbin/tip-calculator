@@ -18,8 +18,8 @@ const DisplayCard = (props) => {
         {data.map((item, i) => (
           <div key={i} className="flex items-end justify-between">
             <div>
-              <p className="font-serif text-white lg:text-lg">{item.label}</p>
-              <p className="font-serif text-xs font-light text-gray-300 lg:text-sm">
+              <p className="font-mono text-white lg:text-lg">{item.label}</p>
+              <p className="font-mono text-xs font-light text-gray-300 lg:text-sm">
                 / person
               </p>
             </div>
@@ -27,7 +27,7 @@ const DisplayCard = (props) => {
               <span className="text-xl font-extralight text-white lg:text-xl">
                 $
               </span>
-              <span className="font-serif text-3xl font-medium text-white lg:text-4xl">
+              <span className="font-mono text-3xl font-medium text-white lg:text-4xl">
                 {item.value}
               </span>
             </div>
@@ -35,7 +35,7 @@ const DisplayCard = (props) => {
         ))}
 
         <div className="flex items-end justify-between">
-          <p className="font-serif font-medium text-white lg:text-lg">
+          <p className="font-mono font-medium text-white lg:text-lg">
             Total Bill
           </p>
 
@@ -43,7 +43,7 @@ const DisplayCard = (props) => {
             <span className="text-xl font-extralight text-white lg:text-2xl">
               $
             </span>
-            <span className="font-serif text-4xl font-medium text-white lg:text-5xl">
+            <span className="font-mono text-4xl font-medium text-white lg:text-5xl">
               {total.toFixed(2)}
             </span>
           </div>

@@ -5,7 +5,7 @@ const PeopleAmount = ({ people, setPeople }) => {
     <div>
       <label
         htmlFor="people"
-        className="block font-serif text-sm font-light leading-6 text-gray-600"
+        className="block font-mono text-sm font-light leading-6 text-gray-600"
       >
         Number of People
       </label>
@@ -19,7 +19,7 @@ const PeopleAmount = ({ people, setPeople }) => {
           type="number"
           name="people"
           id="people"
-          className="block w-full rounded-md border-0 py-1.5 pl-10 pr-3 font-serif text-gray-900 outline-none ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6"
+          className="block w-full rounded-md border-0 py-1.5 pl-10 pr-3 font-mono text-gray-900 outline-none ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6"
           placeholder="0"
           aria-describedby="number-of-people"
           value={people}

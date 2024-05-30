@@ -12,7 +12,7 @@ const tips = [
 const TipAmount = ({ setTip }) => {
   const [customSelected, setCustomSelected] = useState(false);
   const [activeTip, setActiveTip] = useState(null);
-  const [customTip, setCustomTip] = useState(0);
+  const [customTip, setCustomTip] = useState('');
 
   const handleTipClick = (index) => {
     setCustomSelected(false);
@@ -42,7 +42,7 @@ const TipAmount = ({ setTip }) => {
     <div>
       <label
         htmlFor="tip"
-        className="block font-serif text-sm font-light leading-6 text-gray-600"
+        className="block font-mono text-sm font-light leading-6 text-gray-600"
       >
         Select Tip in %
       </label>
