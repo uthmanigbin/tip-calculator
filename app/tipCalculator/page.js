@@ -12,7 +12,7 @@ export default function Tips() {
         <TipForm />
       </PanelLayout>
       <p className="pt-5 tracking-wide">
-        Go back to the borrowing old calculator
+        Go back to the boring old calculator
       </p>
       <Link
         href={"/"}
